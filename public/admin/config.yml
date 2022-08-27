@@ -6,7 +6,7 @@ media_folder: "public/admin/uploads"
 collections:
   - label: "Content"
     name: "content"
-    folder: "_shop/content"
+    folder: "public/content"
     create: true
     fields:
       - { label: "Title", name: "title", widget: "string" }
