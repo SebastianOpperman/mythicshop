@@ -1,11 +1,12 @@
 backend:
-  name: git-gateway
+  name: github
   branch: main
+  repo: SebastianOpperman/mythicshop
 media_folder: "public/admin/uploads"
 collections:
-  - label: "Products"
-    name: "products"
-    folder: "_shop/products"
+  - label: "Content"
+    name: "content"
+    folder: "_shop/content"
     create: true
     fields:
       - { label: "Title", name: "title", widget: "string" }
